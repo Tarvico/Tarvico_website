@@ -131,7 +131,7 @@ export default function InvestorsPage() {
                 <div style={{ fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--text-3)', marginBottom: '0.85rem', fontWeight: 600 }}>Investor Deck</div>
                 <div style={{ fontSize: '1rem', color: 'var(--text)', marginBottom: '0.5rem', fontWeight: 600, fontFamily: 'var(--font-display)', letterSpacing: '-0.02em' }}>Tarvico Inc. — Strategic Overview</div>
                 <div style={{ fontSize: '0.78rem', color: 'var(--text-3)', marginBottom: '1.5rem', fontWeight: 400 }}>2026 Edition · Confidential</div>
-                <Button href="mailto:investors@tarvico.com" variant="secondary">Request Access →</Button>
+                <Button href="mailto:info@tarvico.com" variant="secondary">Request Access →</Button>
               </div>
               <div style={{ border: '1px solid var(--border-w)', padding: '2.5rem', background: 'var(--bg-card)', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-sm)' }}>
                 <div style={{ fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--text-3)', marginBottom: '0.85rem', fontWeight: 600 }}>Founder Letter</div>
@@ -141,10 +141,10 @@ export default function InvestorsPage() {
               </div>
               <div style={{ border: '1px solid var(--accent-line)', padding: '2rem', background: 'var(--accent-soft)', borderRadius: 'var(--radius-lg)' }}>
                 <div style={{ fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--text-3)', marginBottom: '0.75rem', fontWeight: 600 }}>Investor Inquiries</div>
-                <a href="mailto:investors@tarvico.com" style={{
+                <a href="mailto:info@tarvico.com" style={{
                   fontFamily: 'var(--font-display)', fontSize: '1.3rem', fontWeight: 600, letterSpacing: '-0.02em',
                   color: 'var(--text)', textDecoration: 'none', display: 'block',
-                }}>investors@tarvico.com</a>
+                }}>info@tarvico.com</a>
               </div>
             </div>
           </div>

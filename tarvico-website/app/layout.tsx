@@ -277,7 +277,7 @@ const organizationSchema = {
       '@type': 'ContactPoint',
       contactType: 'investor relations',
       telephone: '+1-302-439-6442',
-      email: 'investors@tarvico.com',
+      email: 'info@tarvico.com',
       availableLanguage: 'English',
     },
     {
@@ -293,8 +293,8 @@ const organizationSchema = {
     'https://twitter.com/tarvicoinc',
     'https://x.com/tarvicoinc',
     'https://www.facebook.com/tarvicoinc',
-    'https://www.instagram.com/tarvicoinc',
     'https://www.tiktok.com/@tarvicoinc',
+    'https://github.com/Tarvico',
     'https://www.linkedin.com/company/tarvico',
     'https://www.crunchbase.com/organization/tarvico',
   ],

@@ -140,7 +140,7 @@ const sections = [
     content: [
       {
         subtitle: 'Legal Notices',
-        body: 'All formal legal notices to Tarvico Inc. should be submitted in writing to:\n\nTarvico Inc.\nLegal Department\n8 The Green, #5275\nDover, DE 19901\nUnited States\nTel: +1 (302) 439-6442\nlegal@tarvico.com\n\nFor investor relations inquiries: investors@tarvico.com\nFor general inquiries: info@tarvico.com',
+        body: 'All formal legal notices to Tarvico Inc. should be submitted in writing to:\n\nTarvico Inc.\nLegal Department\n8 The Green, #5275\nDover, DE 19901\nUnited States\nTel: +1 (302) 439-6442\nlegal@tarvico.com\n\nFor investor relations inquiries: info@tarvico.com\nFor general inquiries: info@tarvico.com',
       },
     ],
   },

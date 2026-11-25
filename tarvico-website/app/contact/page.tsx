@@ -4,8 +4,8 @@ import { useState } from 'react'
 import { PageHero, SectionLabel, Button } from '@/components/ui'
 
 const channels = [
-  { label: 'Investor Inquiries', email: 'investors@tarvico.com', desc: 'For investment discussions, strategic partnerships, and financial inquiries.', color: 'var(--text)', border: 'var(--accent-line)', bg: 'var(--accent-soft)' },
-  { label: 'Enterprise & Partnerships', email: 'partnerships@tarvico.com', desc: 'For enterprise access to Vytre AWOS and portfolio product partnerships.', color: 'var(--text-3)', border: 'var(--border-m)', bg: 'var(--accent-soft)' },
+  { label: 'Investor Inquiries', email: 'info@tarvico.com', desc: 'For investment discussions, strategic partnerships, and financial inquiries.', color: 'var(--text)', border: 'var(--accent-line)', bg: 'var(--accent-soft)' },
+  { label: 'Enterprise & Partnerships', email: 'info@tarvico.com', desc: 'For enterprise access to Vytre AWOS and portfolio product partnerships.', color: 'var(--text-3)', border: 'var(--border-m)', bg: 'var(--accent-soft)' },
   { label: 'Press & Media', email: 'press@tarvico.com', desc: 'For media inquiries, press requests, and interview coordination.', color: 'var(--text-2)', border: 'var(--border-w)', bg: 'transparent' },
   { label: 'Careers', email: 'careers@tarvico.com', desc: "Interested in joining the team? Send your background and what you'd like to build.", color: 'var(--text-2)', border: 'var(--border-w)', bg: 'transparent' },
 ]
