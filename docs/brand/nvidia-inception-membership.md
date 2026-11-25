@@ -29,13 +29,15 @@ The NVIDIA Inception brand guidelines were not available when this was built. NV
 - Minimum display width: 180 CSS px (grows to 240 px on wide screens).
 - Clear space: at least 32 px from any text, plus the transparent margin built into the SVG.
 - The artwork is never recolored, cropped, filtered, animated, framed or combined with the Tarvico logo.
-- Dark theme: the badge is hidden and the membership is stated in text only. No NVIDIA-verified treatment for dark backgrounds exists yet.
+- Dark theme: the same unmodified full-color SVG is shown on a flat neutral light surface (`#f8f8f6`, the site's light-theme page color) with 16 px of extra space around the artwork's own margin. The badge therefore looks identical in both themes. The surface has no border, shadow, radius, gradient or effect.
+
+**The dark-theme surface is not yet confirmed as NVIDIA-compliant. Do not merge until it is confirmed (open question 3).**
 
 ## Open questions to confirm against NVIDIA's Inception brand guidelines
 
 1. Required clear space and minimum on-screen size for the Inception badge.
 2. Whether the badge may sit on dark backgrounds. If so, which variant to use, or whether a reverse version exists.
-3. Whether the badge may be shown on a neutral light panel inside a dark-themed page.
+3. **Blocking for merge:** whether the full-color badge may be shown on a neutral light panel inside a dark-themed page, as implemented here. If not, which treatment NVIDIA requires.
 4. Whether the badge must link to a specific NVIDIA URL, or must not link at all.
 5. Approved wording for describing membership, and any required trademark attribution.
 

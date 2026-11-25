@@ -477,11 +477,14 @@
    Screen SVG (it carries its own white panel and transparent margin). Sizing
    and clear space below are provisional Tarvico defaults pending NVIDIA's
    Inception brand guidelines: 180px minimum width, extra space on all sides.
-   No official dark-background treatment is verified yet, so in dark mode the
-   badge is withheld and the membership is stated in text only. */
-.inception-badge { display:block; flex-shrink:0; width:clamp(180px,16vw,240px) }
+   Dark theme: the same unmodified artwork sits on a flat neutral light surface
+   (the site's light page color) with extra clear space, so it renders exactly
+   as in the light theme. No border, shadow, radius or effect is applied. This
+   treatment is provisional and still needs confirmation against NVIDIA's
+   Inception brand guidelines before merge. */
+.inception-badge { display:block; flex-shrink:0; width:clamp(180px,16vw,240px); box-sizing:content-box }
 .inception-badge img { display:block; width:100%; height:auto }
-[data-theme="dark"] .inception-badge { display:none }
+[data-theme="dark"] .inception-badge { background:#f8f8f6; padding:16px }
 .ed-membership {
   display:flex;
   align-items:center;
