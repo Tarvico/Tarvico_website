@@ -473,18 +473,20 @@
   background: var(--bg);
 }
 
-/* NVIDIA Inception membership. The badge artwork is the unmodified official
-   Screen SVG (it carries its own white panel and transparent margin). Sizing
-   and clear space below are provisional Tarvico defaults pending NVIDIA's
-   Inception brand guidelines: 180px minimum width, extra space on all sides.
-   Dark theme: the same unmodified artwork sits on a flat neutral light surface
-   (the site's light page color) with extra clear space, so it renders exactly
-   as in the light theme. No border, shadow, radius or effect is applied. This
-   treatment is provisional and still needs confirmation against NVIDIA's
-   Inception brand guidelines before merge. */
+/* NVIDIA Inception membership. The badge is the unmodified official full-color
+   Screen SVG. Both supplied variants are black-on-white-panel artwork and no
+   dark-background variant was supplied, so on any dark background (dark theme,
+   or the always-dark footer) the same artwork sits on a flat neutral light
+   surface (the site's light page color) with extra clear space. No border,
+   shadow, radius or effect. Sizes are Tarvico design decisions; see
+   docs/brand/nvidia-inception-membership.md. */
 .inception-badge { display:block; flex-shrink:0; width:clamp(180px,16vw,240px); box-sizing:content-box }
 .inception-badge img { display:block; width:100%; height:auto }
-[data-theme="dark"] .inception-badge { background:#f8f8f6; padding:16px }
+[data-theme="dark"] .inception-badge, .keystone-dark .inception-badge { background:#f8f8f6; padding:16px }
+.footer-inception { display:inline-flex; flex-direction:column; align-items:flex-start; gap:.7rem; margin-top:1.5rem; font-size:.78rem; line-height:1.6; color:var(--text-2); text-decoration:none }
+.footer-inception > span:last-child { text-decoration:underline; text-underline-offset:.25em }
+.footer-inception:hover > span:last-child { color:var(--text) }
+.footer-inception .inception-badge { width:140px; padding:12px }
 .ed-membership {
   display:flex;
   align-items:center;
