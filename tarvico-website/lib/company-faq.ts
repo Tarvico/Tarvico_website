@@ -55,7 +55,7 @@ export const companyFaq = {
       name: 'How can I invest in Tarvico?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Tarvico is a private company. Investor inquiries can be directed to investors@tarvico.com or through the Investor Relations page at tarvico.com/investors.',
+        text: 'Tarvico is a private company. Investor inquiries can be directed to info@tarvico.com or through the Investor Relations page at tarvico.com/investors.',
       },
     },
     {

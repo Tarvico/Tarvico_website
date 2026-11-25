@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Investor Relations — Tarvico Inc. | Investment Thesis & Governance',
   description:
-    'Tarvico Inc. investor relations: investment thesis, portfolio strategy, capital philosophy, and governance structure. A privately held U.S. technology company engineered for long-term compounding value. Contact: investors@tarvico.com.',
+    'Tarvico Inc. investor relations: investment thesis, portfolio strategy, capital philosophy, and governance structure. A privately held U.S. technology company engineered for long-term compounding value. Contact: info@tarvico.com.',
   keywords: [
     'Tarvico investor relations',
     'AI company investment',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Investor Relations — Tarvico Inc. | U.S. Technology Company',
     description:
-      'Market opportunity, investment thesis, and governance for Tarvico Inc. — a privately held U.S. technology company building compounding portfolio value through AI-native ventures. Contact investors@tarvico.com.',
+      'Market opportunity, investment thesis, and governance for Tarvico Inc. — a privately held U.S. technology company building compounding portfolio value through AI-native ventures. Contact info@tarvico.com.',
     url: 'https://www.tarvico.com/investors',
     images: [
       {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tarvico Inc. — Investor Relations',
     description:
-      'Investment thesis, AI market opportunity, and governance for a privately held U.S. technology company. Contact investors@tarvico.com.',
+      'Investment thesis, AI market opportunity, and governance for a privately held U.S. technology company. Contact info@tarvico.com.',
     images: ['https://www.tarvico.com/og-image.png'],
   },
   alternates: {

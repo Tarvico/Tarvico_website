@@ -3,12 +3,12 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Contact Tarvico Inc. — Investor, Partnership & Press Inquiries',
   description:
-    'Contact Tarvico Inc.: investor inquiries at investors@tarvico.com, press at press@tarvico.com, partnerships at partners@tarvico.com, and general inquiries at hello@tarvico.com. A privately held U.S. technology company.',
+    'Contact Tarvico Inc.: investor inquiries at info@tarvico.com, press at press@tarvico.com, partnerships at info@tarvico.com, and general inquiries at hello@tarvico.com. A privately held U.S. technology company.',
   keywords: [
     'Tarvico contact',
     'contact Tarvico',
     'Tarvico investor contact',
-    'investors@tarvico.com',
+    'info@tarvico.com',
     'Tarvico partnership',
     'Tarvico press contact',
     'AI company contact',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Tarvico Inc. — Investor, Partnership & Press Inquiries',
     description:
-      'Reach Tarvico Inc. for investor inquiries (investors@tarvico.com), partnership discussions, press requests (press@tarvico.com), and general correspondence (hello@tarvico.com).',
+      'Reach Tarvico Inc. for investor inquiries (info@tarvico.com), partnership discussions, press requests (press@tarvico.com), and general correspondence (hello@tarvico.com).',
     url: 'https://www.tarvico.com/contact',
     images: [
       {
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Contact Tarvico Inc.',
     description:
-      'Investor inquiries, partnership discussions, and press contacts for Tarvico Inc. — investors@tarvico.com | press@tarvico.com.',
+      'Investor inquiries, partnership discussions, and press contacts for Tarvico Inc. — info@tarvico.com | press@tarvico.com.',
     images: ['https://www.tarvico.com/og-image.png'],
   },
   alternates: {

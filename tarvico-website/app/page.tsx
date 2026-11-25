@@ -1,6 +1,7 @@
 import type { Metadata, ResolvingMetadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import InceptionBadge from '@/components/InceptionBadge'
 import ProductScreenshot from '@/components/ProductScreenshot'
 import ProductShowcases from '@/components/ProductShowcases'
 import { MaturityTag } from '@/components/ui'
@@ -46,6 +47,17 @@ export default function HomePage() {
           <figcaption>SireIQ <span>Public interface</span></figcaption>
         </figure>
       </section>
+
+      <div className="ed-gutter">
+        <section className="ed-membership" aria-labelledby="membership-title">
+          <div>
+            <p className="ed-membership-label">Ecosystem membership</p>
+            <h2 id="membership-title">Proud Member of NVIDIA Inception</h2>
+            <p>Tarvico Inc. is a member of NVIDIA Inception, a global program supporting technology startups through technical resources, industry expertise, and ecosystem opportunities.</p>
+          </div>
+          <InceptionBadge />
+        </section>
+      </div>
 
       <ProductShowcases />
 
