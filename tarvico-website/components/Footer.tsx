@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import BrandWordmark from '@/components/BrandWordmark'
+import { INCEPTION_URL } from '@/components/InceptionBadge'
 
 const cols = [
   {
@@ -112,6 +113,17 @@ export default function Footer() {
                 Incorporated in Delaware, USA
               </span>
             </div>
+
+            <p style={{ marginTop: '1.25rem', fontSize: '0.78rem', lineHeight: 1.6 }}>
+              <a
+                href={INCEPTION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: 'var(--text-2)', textDecoration: 'underline', textUnderlineOffset: '0.25em' }}
+              >
+                Member of NVIDIA Inception<span aria-hidden="true"> ↗</span><span className="sr-only"> (opens in a new tab)</span>
+              </a>
+            </p>
 
             <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.5rem' }}>
               {[

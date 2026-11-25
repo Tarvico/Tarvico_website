@@ -5,11 +5,13 @@ import Link from 'next/link'
 import { CSSProperties } from 'react'
 import { PageHero, MaturityTag, Eyebrow, Button, FONT } from '@/components/ui'
 import { publicBusinesses } from '@/lib/businesses'
+import InceptionBadge from '@/components/InceptionBadge'
 
 const timeline = [
   { year: '2025', title: 'Early Product Work', desc: 'Initial product development begins. SireIQ is built and becomes publicly available as an AI assistant, and SEOAgentPro enters active development.', accent: false },
   { year: '2026', title: 'Tarvico Inc. Founded', desc: 'Tarvico Inc. is established as a privately held U.S. technology company, incorporated in Delaware. Its initial products are defined, and development of the flagship product begins in earnest.', accent: true },
   { year: '2026', title: 'Vytre AWOS Enters Public Beta', desc: 'The flagship AI Workforce Operating System reaches public beta. Architecture design, core agent orchestration engine, and enterprise integration framework are underway.', accent: true },
+  { year: 'November 2026', title: 'Accepted into NVIDIA Inception', desc: 'Tarvico Inc. is accepted into NVIDIA Inception, a global program supporting technology startups.', accent: true },
   { year: '2026+', title: 'Launch · Growth Phase', desc: 'Vytre AWOS targets broader enterprise availability. Products across the portfolio advance from early development toward market entry and scale.', accent: false },
 ]
 
@@ -93,7 +95,7 @@ export default function AboutPage() {
           <Eyebrow label="Company Timeline" />
           <div style={{ borderTop: '1px solid var(--paper-line)' }}>
             {timeline.map((item, i) => (
-              <div key={i} className="mob-stack" style={{ display: 'grid', gridTemplateColumns: '150px 1fr', gap: '2.5rem', padding: '2.25rem 0', borderBottom: '1px solid var(--paper-line)', alignItems: 'start' }}>
+              <div key={i} className="mob-stack" style={{ display: 'grid', gridTemplateColumns: '210px 1fr', gap: '2.5rem', padding: '2.25rem 0', borderBottom: '1px solid var(--paper-line)', alignItems: 'start' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
                   <span style={{ fontFamily: FONT.display, fontSize: '1.4rem', fontWeight: 800, letterSpacing: '-0.02em', color: item.accent ? 'var(--paper-ink)' : 'var(--paper-muted)' }}>{item.year}</span>
                   {item.accent && <span style={{ width: 7, height: 7, borderRadius: '50%', background: 'var(--paper-ink)' }} />}
@@ -104,6 +106,19 @@ export default function AboutPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section style={{ background: 'var(--bg)', borderTop: '1px solid var(--border-w)' }}>
+        <div className="mob-p" style={WRAP}>
+          <Eyebrow label="Innovation Ecosystem" />
+          <div className="company-ecosystem">
+            <div>
+              <p>Tarvico Inc. is a member of NVIDIA Inception, a global program supporting technology startups as they develop and scale innovative solutions.</p>
+              <p>This membership complements our long-term vision of building technologies across artificial intelligence, advanced computing, energy, and intelligent mobility.</p>
+            </div>
+            <InceptionBadge />
           </div>
         </div>
       </section>

@@ -105,7 +105,7 @@ const sections = [
       },
       {
         subtitle: 'No Agency or Endorsement',
-        body: 'References on this Site to Tarvico products, brands, programs, or third parties — including membership in the NVIDIA Developer Program — do not create any partnership, joint venture, agency, or employment relationship, and do not constitute an investment in, endorsement by, or official partnership with any third party, except where expressly stated in a separate written agreement.',
+        body: 'Tarvico Inc. is a member of the NVIDIA Developer Program and, separately, a member of NVIDIA Inception, NVIDIA’s program for technology startups. These are program memberships only. References on this Site to Tarvico products, brands, programs, or third parties — including these NVIDIA program memberships — do not create any partnership, joint venture, agency, or employment relationship, and do not constitute an investment in, endorsement by, or official partnership with any third party, except where expressly stated in a separate written agreement.',
       },
     ],
   },
