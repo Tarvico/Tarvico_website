@@ -445,6 +445,13 @@ body {
 @keyframes aurelFloat3d { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
 .animate-aurel-float { animation: aurelFloat3d 10s ease-in-out infinite; }
 
+/* Homepage hero: center tall content on desktop, but top-align on mobile so the
+   folio eyebrow row never hides under the fixed nav. */
+.hero-aurel { min-height: calc(100vh - 72px); display: flex; align-items: center; }
+@media (max-width: 767px) {
+  .hero-aurel { min-height: auto; align-items: flex-start; padding-top: 1.5rem; padding-bottom: 3.5rem; }
+}
+
 /* Computational-keystone sculpture (hero signature) — Lit Keystone (B) + glow */
 .sculpt-wrap { perspective: 1150px; }
 .sculpt-stage { transform-style: preserve-3d; transition: transform .4s cubic-bezier(0.16,1,0.3,1); will-change: transform; }
